@@ -4,6 +4,7 @@ import org.example.nameList
 
 fun main() {
 
+    val animalName = "dogandcat"
 
     val animal = "?"
 
@@ -16,11 +17,16 @@ fun main() {
     }
 
 
-   fun test(name: String) {
-       when(name) {
-           "fgfe" -> {
-               println()
-           }
-       }
-   }
+    fun test(name: String) {
+        when (name) {
+            "fgfe" -> {
+                println()
+            }
+        }
+    }
+
+
+    for (a in animalName) {
+        println(a)
+    }
 }

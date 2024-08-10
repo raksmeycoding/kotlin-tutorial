@@ -46,7 +46,21 @@ By default, classes are final
   // code inside while loop body
   }
 - do while loop
-    - execute the body, then express 
+    - execute the body, then express
+- Iterating through string loop (like foreach loop in java)
+    - for (a in b)
+
+### Function
+
+- Type of function: Unit (like Void in java - also be omitted)
+
+### Array
+
+- To create array:
+    - use the function arrayOf()
+    - Function to create any array
+        - arrayOf(), arrayOfNulls()
+        - get(): the method the value at the specific of the index
 
 
 
